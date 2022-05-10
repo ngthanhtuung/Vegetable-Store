@@ -56,7 +56,7 @@ Individual Assignment for `Java Web Application Development (PRJ301)` subject at
 ```java
 <Context path="/VegetableStore">
     <Resource name="DBCon" auth="Container" type="javax.sql.DataSource"
-              username="YourDBUser" password="YourDBPassword"
+              username="YourDBUser(Change it)" password="YourDBPassword(Change it)"
               driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
               url="jdbc:sqlserver://localhost:1433;databaseName=VegetableStore">
     </Resource>
