@@ -43,7 +43,7 @@ Individual Assignment for `Java Web Application Development (PRJ301)` subject at
 
 - To run this project, you should use Netbeans IDE (especially version 12.4) to run easily, another IDE like IntelliJ, Eclipse,... You need to find the way to config this project before using.
 - After import project to IDE, please import `JSTL Library` and `external library` from `lib` folder.
-- At file `src\java\sendemail\SendEmail.java` you need to change this code into your email and password to use Send Email function.
+- At `src\java\sendemail\SendEmail.java` file, you need to change this code into your email and password to use `Send Email function`.
 
 ```java
     String myAccountEmail = "YourEmail";
@@ -51,12 +51,12 @@ Individual Assignment for `Java Web Application Development (PRJ301)` subject at
 ```
 
 - After that, you click [here](https://myaccount.google.com/security?hl=en), sign in with the gmail account you have entered above `(if you haven't logged in yet)`, scroll down to `Less secure app access` and turn it `ON`
-- At `context.xml` file, you need to config as below:
+- At `web\META-INF\context.xml` file, you need to config as below:
 
 ```java
 <Context path="/VegetableStore">
     <Resource name="DBCon" auth="Container" type="javax.sql.DataSource"
-              username="YourDBUser" password="YourDBPassword"
+              username="YourDBUser(Change it)" password="YourDBPassword(Change it)"
               driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
               url="jdbc:sqlserver://localhost:1433;databaseName=VegetableStore">
     </Resource>
